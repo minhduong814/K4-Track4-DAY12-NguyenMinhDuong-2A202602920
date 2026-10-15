@@ -1,0 +1,46 @@
+{
+  "student": {
+    "student_id": "2A202602920",
+    "split_seed": 939,
+    "model_seed": 9541,
+    "v_ego": 10.0
+  },
+  "planner": "PercMLP+",
+  "per_seed": [
+    {
+      "seed": 9541,
+      "all": 0.808221161365509,
+      "brake_slice": 0.9831262230873108,
+      "slice_share": 0.048889572181302327
+    },
+    {
+      "seed": 9542,
+      "all": 0.8289877772331238,
+      "brake_slice": 0.9549490213394165,
+      "slice_share": 0.048889572181302327
+    },
+    {
+      "seed": 9543,
+      "all": 0.847674548625946,
+      "brake_slice": 1.0313695669174194,
+      "slice_share": 0.048889572181302327
+    },
+    {
+      "seed": 9544,
+      "all": 0.8398954272270203,
+      "brake_slice": 1.0392944812774658,
+      "slice_share": 0.048889572181302327
+    },
+    {
+      "seed": 9545,
+      "all": 0.8264564275741577,
+      "brake_slice": 1.0538524389266968,
+      "slice_share": 0.048889572181302327
+    }
+  ],
+  "all_range": [
+    0.808221161365509,
+    0.847674548625946
+  ],
+  "source": "Scores recomputed from work/models/percfix_<seed>.npz on the held-out windows; summary checked against openloop.json."
+}
